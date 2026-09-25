@@ -1,0 +1,2516 @@
+{
+  "mappings": {
+    "m1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      0
+    ],
+    "m3": [
+      1,
+      0,
+      3,
+      2,
+      5,
+      4
+    ]
+  },
+  "schema_version": 1,
+  "seed": 2026092302,
+  "split": "confirmation",
+  "stories": [
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "dc6467aa809b14a678a659518298fb572aaac87e49693df62f37c71e78ad025a",
+      "context_rep": 0,
+      "distractor": "watch",
+      "distractor_location": "closet",
+      "id": "ec8d2b4429d9d6a2d0322238c4134542c27f36dd3055960b28d91109b22145ca",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "ticket",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "17c0b70dadab725d1386f4daa197afa828b9c172ac9734210cbbe2ef6a18d144",
+      "context_rep": 1,
+      "distractor": "coin",
+      "distractor_location": "shelf",
+      "id": "d432f9f751f7d8d7e1d08b937e7d49573ddb199dd82e09a8032659d34eac7b8e",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "photo",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "a810a97f06e7b7c5605335fd4f9186581c96ae5211e90d3909c8eeee1db86b54",
+      "context_rep": 2,
+      "distractor": "map",
+      "distractor_location": "shelf",
+      "id": "9871f4c53577d92a8e8304f69f29d265455f5cbc7bae457f73cb3b1e9e111d9c",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "notebook",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "0e564a8b9d11a349fbe409c5548f288d22850dee8c478ac45dc1608aa542363c",
+      "context_rep": 0,
+      "distractor": "map",
+      "distractor_location": "drawer",
+      "id": "02a31c4ad283d9776a5cb076e7281a360f6007362f97b5ee4d82c5b50e4a2184",
+      "initial": "shelf",
+      "mapping_disagreement": true,
+      "object": "ring",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "ecaf5d119f51285f32e2802b92825dc52d5478d3ed94463bb2c295d45460106d",
+      "context_rep": 1,
+      "distractor": "coin",
+      "distractor_location": "cabinet",
+      "id": "12a8d35117b4db13145348040abd8a655456a3c777d87b612b05209d9cb3af35",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "notebook",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "6c56c1a31dcc4bce9f9cc4d6e38597c598b50aa7499c5b6afd3a36fac0fc8aca",
+      "context_rep": 0,
+      "distractor": "key",
+      "distractor_location": "drawer",
+      "id": "6875230ed7fdd4e337c7d5b571300ba2821d4a726165ee1071225f0d26192254",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "scarf",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "5f8f396ec8b3ffc0fdabbfdce7e1bd65f6aa234f682403f8e87671f3b4ada426",
+      "context_rep": 2,
+      "distractor": "map",
+      "distractor_location": "drawer",
+      "id": "fdaaa27bacad617fb400a16e934441edc7598c302b17f59eeeff5cf24f41c40b",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "phone",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "206f1921b557c6d9b4931b3ff6b83f7b17273bd2eeb316bd986283599b90c20f",
+      "context_rep": 2,
+      "distractor": "photo",
+      "distractor_location": "shelf",
+      "id": "a18b20d1643ce71dea026410e7940c21e62f78a8f5b27d3c03dde7d70ed81d1b",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "bottle",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "22a579b84a6032a702729f5bf44537d7e71973b269af906f8bdc6e3d138342fc",
+      "context_rep": 2,
+      "distractor": "candle",
+      "distractor_location": "shelf",
+      "id": "f43894b512446515effd7028e5a179a8e9460286cd2d004e6ccd268883e9addf",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "key",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "56d6be69b098edf19fc1de09425bbdbffb251356bc108f04ac7e1f3609938f14",
+      "context_rep": 2,
+      "distractor": "cup",
+      "distractor_location": "basket",
+      "id": "25e79a9fd0e4abb48fc3f10c2fd484175fa65cd3269e84177e0a27913401aee5",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "coin",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "9167b49792b6db45b41374359c4e78979d9645e429b9cd69b81609530e55c05c",
+      "context_rep": 0,
+      "distractor": "letter",
+      "distractor_location": "closet",
+      "id": "0550fa8c4af99a267e8373a2e712a2034a460e1cf7b84a33a5377040ff10589a",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "wallet",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "99c97a6b1013660ba57b4fd482d226d67cab81adf2ea500ac3f00c2dba31d9ca",
+      "context_rep": 2,
+      "distractor": "wallet",
+      "distractor_location": "box",
+      "id": "edb27807e88d2c5973c3367603dc1a06ff3a85068f37cc3a19427e6a9780f848",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "candle",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "9c6469f18e84d490d8cb950501453648a92748e46c37885900b20afdd5ba6df6",
+      "context_rep": 1,
+      "distractor": "cup",
+      "distractor_location": "shelf",
+      "id": "95d99722f12a45f9d7c38f23d72440f74f4facd5c5f61dae4518136c83e34646",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "pen",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "4a3b3191e3af224ae22665d33c44b7940ca05254f2e54d7058bea2be1a214d6d",
+      "context_rep": 2,
+      "distractor": "pen",
+      "distractor_location": "closet",
+      "id": "d21e14477fa158676ef718078f38e8c53d103797a944ac5832c375805ac3acdc",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "photo",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "719f43f86bf25a149a68dbfebb87fdc6ca674ef33ecffc81ea88fe6a4d41f79f",
+      "context_rep": 1,
+      "distractor": "letter",
+      "distractor_location": "basket",
+      "id": "06397ac7930e7f4d0aef1354c398d0c9697d41229e08584f66c6da96b15a140d",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "phone",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "534638edf37c676c0b3a8811870baae8defea72bdf7377746a6b7c27a90af80d",
+      "context_rep": 1,
+      "distractor": "watch",
+      "distractor_location": "shelf",
+      "id": "2107bf69813059129e9448cf64a9f9215f04c2de6660870feee68c6b00384109",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "card",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "b6b58f3c6fe456f65434e69ad973115b85803104984ef2b0d415f26b6c7a0cd2",
+      "context_rep": 1,
+      "distractor": "watch",
+      "distractor_location": "cabinet",
+      "id": "93967e7ff7e47a1258ce030c23ecb1cbfbeb4845c0dd705c2dc034b7ab78d7bb",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "ticket",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "da60127f9f86b178b8b30f602b168db074d56decde8e5b5346392339600ff820",
+      "context_rep": 0,
+      "distractor": "photo",
+      "distractor_location": "cabinet",
+      "id": "eab7183237e76a6c4733b0b8583c885ab1a43b6b1264cc71b7479a1e3abb8baa",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "map",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "2000542d433b348e3f535a380d8f35ba103ef3d5bdc614f274a9f3bc5b9a94e4",
+      "context_rep": 1,
+      "distractor": "notebook",
+      "distractor_location": "closet",
+      "id": "7bdfbc3880e9b936a1aed0adc8d7983f5a7900fa34858423629999e041b2b077",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "ticket",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "30dbd28b635bf2de055393dacd78a4865263c5e8108cdf71900ed64d25826232",
+      "context_rep": 2,
+      "distractor": "book",
+      "distractor_location": "box",
+      "id": "8d07a1448eba7f87f1f8eb0f794588355e9e11964a5391291e96806e5dfc84c5",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "phone",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "80fdbd2dcb0602fcddfef000eba4b6fcda5a6cd3d0b2be0b7ac5b63765a31452",
+      "context_rep": 2,
+      "distractor": "watch",
+      "distractor_location": "shelf",
+      "id": "1126dffc0cc625b7e28678b41e104640d352cefa020968d7c3bfe638c9ef03bb",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "phone",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "db2c76d40be385c1c171b282c6770763283109a7ce5e8e4d6e4ffeb0d382e33f",
+      "context_rep": 2,
+      "distractor": "bottle",
+      "distractor_location": "basket",
+      "id": "b50e870740a96fdb907e7abb785274741cf322ea54f28e9213268e94741280b8",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "candle",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "9e0225178efde8e072e4595f92b5b0d1fce3965326d900a98b578447c7be08c2",
+      "context_rep": 0,
+      "distractor": "wallet",
+      "distractor_location": "box",
+      "id": "3c8e9fd46ee0f98c5087019d1ecda656d2db869b6ac177cb3ffd7549ebcc788f",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "map",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "ab1b1cd7c86c3ec00e9adcada12816f9e21fb06a4631fa9c115f834c28f430a6",
+      "context_rep": 1,
+      "distractor": "toy",
+      "distractor_location": "basket",
+      "id": "0070d8c14b4322f6474eca84642eeab5e2314f6bb9f93358bdb5e77a8ae9d853",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "candle",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "ba81eefb5275ba554f2025197f5f15cb9e15d5311f4a7765c6ee2bc9ad8c319d",
+      "context_rep": 2,
+      "distractor": "coin",
+      "distractor_location": "shelf",
+      "id": "59618a350e60f4a8c8a52c97ae0dda8433ada059068f18b0527391a8db18da91",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "candle",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "d107c01b829a43bc53e1c2504d246f39ce7276e7dc7ac811fc9fce90a67d7855",
+      "context_rep": 0,
+      "distractor": "letter",
+      "distractor_location": "closet",
+      "id": "b296946ab0cca1c6d8f31e5691572a6064f7614afdc35780e04c1aa9ca44d30f",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "toy",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "2ca7953d78b88a5a046786536e355d40a71072f3c4afbb75bafa2ce54cf15861",
+      "context_rep": 2,
+      "distractor": "letter",
+      "distractor_location": "closet",
+      "id": "5ed99b9e3330c9d8d5cd57c957193342ebc5bebebf8ae09cdd6122fa22ed4429",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "key",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "c89ee84f5cc291d42ab71f4038ba15bd79a6da93b715147761ca1cdfae93d1f3",
+      "context_rep": 2,
+      "distractor": "ticket",
+      "distractor_location": "shelf",
+      "id": "bd61b215f7f72346e6c6c08ff1719e109bf69597767bc2997dc5e5ebe8aa75fa",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "ring",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "449022d5855c3a285a4f7e9a5e42f2daffb02d6a2e8d63c1a2f5a96d58a07c6f",
+      "context_rep": 2,
+      "distractor": "book",
+      "distractor_location": "basket",
+      "id": "a61099a3b598d7ba8e56462b462b6e13ed77c71ee7cb8bf823cd0c8d8e332398",
+      "initial": "drawer",
+      "mapping_disagreement": false,
+      "object": "toy",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "cd3f36071157015ff0b67297ead7b81979f4942aa518c8eb24054299842f646c",
+      "context_rep": 1,
+      "distractor": "ring",
+      "distractor_location": "basket",
+      "id": "4aadc46bbf6e248a6bbb7412fc0e07f818a59e65548dc0c585c121b495655e94",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "key",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "d81de8ff4996c0a20b29b19f5a1ba03c8ba93a2c0b225b650b379a14d4306c29",
+      "context_rep": 1,
+      "distractor": "toy",
+      "distractor_location": "basket",
+      "id": "38c20b4dd7c9accdb7393967e3aa72aa4928019f06ad21c9d8e1aebc3f239c13",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "ring",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "5c181f03c06e8b9cb5886b3a14f4408dbd3110c49d8260fb8ec5ad4e7e788072",
+      "context_rep": 2,
+      "distractor": "pen",
+      "distractor_location": "box",
+      "id": "30b90e7f4c9b9c6cf515c23c2b0138f0076ac666c4d818ce673b57546da74b12",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "coin",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "8c1b82db00e29882ebae0d5d3fd8c5484dbb2b3839444ac284c37941f884a3c9",
+      "context_rep": 0,
+      "distractor": "ticket",
+      "distractor_location": "box",
+      "id": "e135f42463ce01a13e2004640a74bdc466ee8dfe88645e1c4ebf52db2fabdf4e",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "phone",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "c71426688d055d74f5983a11da261cdbdfb9fcd4e5985785b2ecf2216f5d2c72",
+      "context_rep": 2,
+      "distractor": "badge",
+      "distractor_location": "cabinet",
+      "id": "5e95a4e4fcf8b6bd3ec953815a4b384ea11b40ce157ef68b20c5d0588c62d18e",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "cup",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "e557abc6f9ac601ef9b3e9aa09339c6b338e02c4da70ead1db693890d33da709",
+      "context_rep": 2,
+      "distractor": "ticket",
+      "distractor_location": "basket",
+      "id": "adf031fc1cc64690681e2cd42a0fbcde981d6d7c546f3150d83005c684a461d7",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "bottle",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "1e5a791a99f63532656f490ec3796c7e269398d6e42261dea357737cc9082dd1",
+      "context_rep": 2,
+      "distractor": "cup",
+      "distractor_location": "box",
+      "id": "f0a1e5f4d0697736301d90b2e0e81e51d7f519b1c5b850a60991c00dd991ef5a",
+      "initial": "cabinet",
+      "mapping_disagreement": true,
+      "object": "photo",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "589e9a21610648514410690a1580afea56f2828c9abe17342292cbee9a0c7d2a",
+      "context_rep": 2,
+      "distractor": "card",
+      "distractor_location": "shelf",
+      "id": "c09b933a8d30e65426107deea95c0b4502de959e7fc34516819bf2aa2193ce4c",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "pen",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "861ea4a3dc7f0d310549563ab4eda16f6730069a480af3c55fc84750733d7989",
+      "context_rep": 0,
+      "distractor": "ring",
+      "distractor_location": "shelf",
+      "id": "b49a2411690db20ce70e1a4f136077551e4146c1a9e9343e9238c436d361b5a4",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "key",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "84e9e4ecead48ac9300438888236e8adacc0b318eec06eb8eb371f131232f1dd",
+      "context_rep": 0,
+      "distractor": "badge",
+      "distractor_location": "box",
+      "id": "e354e35b27f7a193d4d111ff50e5acb294aeb171a17f5e3b6c3ad074048d0e3d",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "scarf",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "d9331643635d51a5d721dd8738089d1deadd99fc9fde03c6969469a263a853c6",
+      "context_rep": 1,
+      "distractor": "ring",
+      "distractor_location": "cabinet",
+      "id": "9cb1fa7bd2844a23ce7a8349e3e516100d18edce97dade9697d4c797344f14c0",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "coin",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "1f6785061b6ed58f5a870b179b1945a930f2c9bbfbef25f40288e031258a8edb",
+      "context_rep": 1,
+      "distractor": "letter",
+      "distractor_location": "basket",
+      "id": "cb1c09160ed3cdf53f3fd2c1aab7eacd253f66cfd16c20a9e2509ad42ff1f19b",
+      "initial": "drawer",
+      "mapping_disagreement": false,
+      "object": "map",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "9f6a4f8bff1a8389b07826f2ab3d7a35bc4f86334b0af165a7f76ec523a36b93",
+      "context_rep": 0,
+      "distractor": "photo",
+      "distractor_location": "basket",
+      "id": "57a1dc6bfbefc4249ad3101280a9eb9d6171bbc93a5b633f465500f01351da2d",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "letter",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "eebc7d54f1edc6147c9ffc83b00ed7810a88d277f2b150eeeed2fff98c5e80a5",
+      "context_rep": 0,
+      "distractor": "ring",
+      "distractor_location": "basket",
+      "id": "45c6e72efebab4b01353a9ef375d4112874d8b35dc9828e56b9e5ef892ddce16",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "letter",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "3c53a4e4ab258df8e7fb62b49ac8cd4481bc3b032296c4c261f470a97b047a6d",
+      "context_rep": 1,
+      "distractor": "map",
+      "distractor_location": "basket",
+      "id": "11fd049b3134fc342cb5827c9157896aae5e0ba615ae050dbdf42fd4081760ec",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "book",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "b311385fd9e8523fd9be7a525ba9b52afc6e10212839a91ca673ca0afe60b8b6",
+      "context_rep": 2,
+      "distractor": "map",
+      "distractor_location": "drawer",
+      "id": "30e7b755444d77fa15e06c24b8c851cbf3ddf2e98fef5b5c0f66e5dab835fddf",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "pen",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "f7da8b026776c4e5e8c4e1341f143306841b65f0b878638be0d1e94c1f62da74",
+      "context_rep": 0,
+      "distractor": "photo",
+      "distractor_location": "shelf",
+      "id": "f1676d49e6a1b7bcb2794eec2e4d0cb27aa3772ccff09074f64ef5eca93502ed",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "notebook",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "8a551545238914ca7bbd5b04e2551b5111757cecbb08616f8f16efabcd97e344",
+      "context_rep": 2,
+      "distractor": "map",
+      "distractor_location": "cabinet",
+      "id": "a856be58b2a7f1cbce7fab2f299351554f7031ee93e960e8e06d435f0749a144",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "pen",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "40d7da91e65deffac214b545d41cf99794943a8019ccb44f540e59cb7fba6a0a",
+      "context_rep": 1,
+      "distractor": "scarf",
+      "distractor_location": "basket",
+      "id": "fbcee8c0ef8121297751c2f0c159b9d66c426efff3d2ca2100714b8c779c7845",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "wallet",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "9a4eae5ba17b0aaa76839ff3b1d11d7d8872595fe9a0d234b5aae0ad030247c9",
+      "context_rep": 2,
+      "distractor": "candle",
+      "distractor_location": "basket",
+      "id": "f9286d7c172d93c999d85013fec1a94e0824bf0219d270ba8218e5c21d7800ab",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "map",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "17c29bd72b762cdac54a168ae36613268d14fe4435038bb605b067e6be59fe95",
+      "context_rep": 2,
+      "distractor": "cup",
+      "distractor_location": "cabinet",
+      "id": "a01282bce57e5282aaf9e3aa85da27e3bf48981a0414576d2d61748cfc0dc4ec",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "coin",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "217c881dabb6de3a40972e765947d6795c554f67f6b64a1fa8e699f20ce22fcb",
+      "context_rep": 2,
+      "distractor": "notebook",
+      "distractor_location": "closet",
+      "id": "07a157bf5ea15084a18e5ad6ac2872f73c81c90907ffb872a0132ac01b9d0a65",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "cup",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "60f7d9409c9e7ca753cdb3f6f6fd8b6b3a011e6e939a612c9a4a723d8d5dfcd8",
+      "context_rep": 0,
+      "distractor": "phone",
+      "distractor_location": "closet",
+      "id": "0527ee4a534b233feb52a0d2df968ddfe911d0cb03f018f0136c909146fe03f1",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "card",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "f2e5a2459c4818af61d936db629ea143b78a34a71ad560e71d1771c13dd23c63",
+      "context_rep": 0,
+      "distractor": "notebook",
+      "distractor_location": "basket",
+      "id": "9e9df454dff3e453d31d4404182380e0f340713f37a4a17755c2a086a6067fd3",
+      "initial": "shelf",
+      "mapping_disagreement": true,
+      "object": "letter",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "c036e765c8e2c6ef2979c9dbb08934922b5c67c3f2b1006ebc6283a090b16452",
+      "context_rep": 1,
+      "distractor": "badge",
+      "distractor_location": "drawer",
+      "id": "f25b0648252c525fc839632938e716a3235da9c5ef5c8a71ea8d3e65a6f496ac",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "ticket",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "bdcb355c86fc96df8f782041cee583c8a1db4d8c4218ad25f0ea287d40435c91",
+      "context_rep": 1,
+      "distractor": "photo",
+      "distractor_location": "closet",
+      "id": "3d63b18e82f59fced6d8d83887f6ddb125d01a4a7dd46ecac43d976d62b1ae74",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "wallet",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "1b9163a642e947e5202384977c81145041e44d51e0da4aa4ebee8c079e8178e8",
+      "context_rep": 2,
+      "distractor": "card",
+      "distractor_location": "cabinet",
+      "id": "7d5b643823353409b8cd978dd79f588041513dc868991b28967ef3260c0f10f6",
+      "initial": "cabinet",
+      "mapping_disagreement": true,
+      "object": "ring",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "f637900397dec7a6a88484fa6ab40d7d2ba167cf5af10493bcdba01b0e7cd8e1",
+      "context_rep": 1,
+      "distractor": "notebook",
+      "distractor_location": "basket",
+      "id": "9b988e15037f550898d386c839119e21cd03a3cdb3ea4aa7f17f2510780a8811",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "scarf",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "9c63bf5bb2ab1a9e8ae52de60c4673b436a076891c3ad286c3b443dec0e3aae1",
+      "context_rep": 1,
+      "distractor": "coin",
+      "distractor_location": "closet",
+      "id": "0196fa92a072b707525796a44acfabc263e750ee359614b5f6f92c98e767db90",
+      "initial": "drawer",
+      "mapping_disagreement": false,
+      "object": "book",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "74e344e548b21fc19a5d77ad3734ae91ce7d479e64decb2fc017ca5a14bb1def",
+      "context_rep": 0,
+      "distractor": "key",
+      "distractor_location": "cabinet",
+      "id": "a16e56a80420c47dfd8e2fbea4f6043af8d14f41ae87e8e017be8c79857e62b3",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "ring",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "d1ec8b64a0210617c867be0e6b4b1b58de48cf5f2017ca744539c5afb7208d52",
+      "context_rep": 1,
+      "distractor": "coin",
+      "distractor_location": "closet",
+      "id": "38704282149f64e983c3fa9cab7fa83a1a1d06237227d25f24a412bfe44c3df1",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "toy",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "2084e4d443a8de534e11088d46ab2531d348e61fa0de9d3ac60bd47ac599c887",
+      "context_rep": 1,
+      "distractor": "ring",
+      "distractor_location": "shelf",
+      "id": "bd17e8223d05b77218006d31eb314b177d3be1bb4834ac3deae4d7a642fe5bcd",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "watch",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "8585806446d74f5726c195e2565e338ce1e3cd90890752526072d01070a68c7c",
+      "context_rep": 0,
+      "distractor": "badge",
+      "distractor_location": "shelf",
+      "id": "d7dc7f95453c78895787f12ae16f0fea96934bfeac0964f46e8c54f43ceac8c4",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "wallet",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "d631ddeb308e85b0d9a970bc22202d95bd5b08f8a60157fff0a6605b160ced10",
+      "context_rep": 0,
+      "distractor": "cup",
+      "distractor_location": "closet",
+      "id": "a3690d1929da4e10e7ba9534be97959e9256d28501d45e25ca800910fec85a4b",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "candle",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "0a1d2565f329f414206b74408590b1df29ad7b47a6a1db55648d905ae2d9e1d5",
+      "context_rep": 0,
+      "distractor": "pen",
+      "distractor_location": "shelf",
+      "id": "404dc977db57401d3b0f8e69e88c2a00160bf138c165f6e3f93b4a0814eb73fc",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "letter",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "a825744a0796834fe5b25de25be748da523af3b1ee3c84ab681cfc644e8ca54c",
+      "context_rep": 0,
+      "distractor": "candle",
+      "distractor_location": "drawer",
+      "id": "044d01fd4d4c5dfcf454093d8a6f00bca300b9cbeb6b3f852eeca95236e212d3",
+      "initial": "box",
+      "mapping_disagreement": true,
+      "object": "map",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "8416709e7b4945af6f91d80b60a4be80052187e466aa8fad18e22c1588fa3649",
+      "context_rep": 1,
+      "distractor": "coin",
+      "distractor_location": "drawer",
+      "id": "01cde96cc07ec3bc6fa3cdf59ae9b3cd91ca43436e4f1b4f3f3d2b5a4e254e10",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "bottle",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "c5037e256740087d41f92e286e9167bed5b9179e338b092830ef34a27fbe8f7a",
+      "context_rep": 0,
+      "distractor": "scarf",
+      "distractor_location": "basket",
+      "id": "eff5f5d36b00179bf5a989a4b2c04e724bfd6bf8a20d7c20a9ef2d3eac712c4f",
+      "initial": "drawer",
+      "mapping_disagreement": false,
+      "object": "toy",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "1a38ee73f7f50be759c30c7c2f562b3ec968969570a365b3f87fbb7ec456d7d6",
+      "context_rep": 0,
+      "distractor": "coin",
+      "distractor_location": "shelf",
+      "id": "f3a6a70b498956a5cbb50ffba55477f57bc7f954a5bafe2911380fac04df88d2",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "letter",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "36463dd43def783f9a610db0bc147fd6f92e4970c9d55ee44ddec4f2c0dc22f0",
+      "context_rep": 1,
+      "distractor": "photo",
+      "distractor_location": "drawer",
+      "id": "b7ef676edf76e94f9f1bf9e652383e94c319349ff26553799c840b8378c1fa7a",
+      "initial": "cabinet",
+      "mapping_disagreement": true,
+      "object": "map",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "ba7457ac76d11f3977781b2637fb6bab8af1fe7ba33c7b88643d6ed4e3915e77",
+      "context_rep": 1,
+      "distractor": "toy",
+      "distractor_location": "drawer",
+      "id": "35098f81b803f77543ff9d8c90d9fd53443de7b75075eee3d07dccc0c29c0687",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "photo",
+      "other": "Alice",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "edc8f967d0ef4194949871887df387111e01482c5853bed800fa246382621fa1",
+      "context_rep": 2,
+      "distractor": "badge",
+      "distractor_location": "basket",
+      "id": "a36bdf9ecebe3a0612a568747f121b2a22e23248a6976683fc1123b43d2ca0a0",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "candle",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "2b20f9cac141ecb3acb567f3b8e5c7fafcdd6d18a3222a08637163bdc41fc23d",
+      "context_rep": 2,
+      "distractor": "watch",
+      "distractor_location": "cabinet",
+      "id": "c5be0bc80862ba2a91bf44e65df5304fb568c7f0b1cbc4733cfedcdc8f14ba7b",
+      "initial": "shelf",
+      "mapping_disagreement": true,
+      "object": "coin",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "ba4a0a6f3b4cc08993f9e324bb96cf4ea1137594d4f98e728531006d18c2cdc8",
+      "context_rep": 1,
+      "distractor": "bottle",
+      "distractor_location": "box",
+      "id": "08a647603dc8823df2727a1776fdce22941ca0ded83d69790edbf5926cf4ef1f",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "notebook",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "1599947d77d98d8be2600f16dedba6fea1182b691a3bc641526f5f23514fc832",
+      "context_rep": 0,
+      "distractor": "map",
+      "distractor_location": "shelf",
+      "id": "77abe84e84f68fcf52f323af34ccebad0e92b6c5dd86627c9a1af247a24d6dd7",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "card",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "0b7ae07a22c0973ae4b8f79b1d70bfb52fcbf9d9b3e8318870175dd35d92f79e",
+      "context_rep": 1,
+      "distractor": "key",
+      "distractor_location": "closet",
+      "id": "8a45c2ebdc667420804fcda8e1ad448ce54bb0908efbfb21acba773c032019f1",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "phone",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "ba13b9b2d89d678b2adeea3fb3732cf2fe00e9b56da5afa086ed5d7dbea74e21",
+      "context_rep": 0,
+      "distractor": "book",
+      "distractor_location": "basket",
+      "id": "2e56317a5ec52e6ea24027bae6d18b011303eccecab4cb750bd632b19cb60a39",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "candle",
+      "other": "Bob",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "337caba5bd1794aff4ab49e87bf1464846728b879cea499a8904d79673b130e2",
+      "context_rep": 0,
+      "distractor": "watch",
+      "distractor_location": "closet",
+      "id": "452b59855228cddc647c88d14c1145b9c960b84a860cc41d920b8cac6029564e",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "key",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "280b166d72ef8bf9316de723e88039c58024effcd23e224619c670c784b92fa1",
+      "context_rep": 2,
+      "distractor": "map",
+      "distractor_location": "box",
+      "id": "01b75fe0f9a8d75c9dbf3b528d60ff8d09df82894706cb355eb2596c63bc20d0",
+      "initial": "closet",
+      "mapping_disagreement": true,
+      "object": "coin",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "362a6b10292f0664574acbea92b54c895fb57b60d34eac0d38e3735c8961f6a8",
+      "context_rep": 0,
+      "distractor": "ticket",
+      "distractor_location": "basket",
+      "id": "6e729ecf4ce200d9936d94c9bab8f6a122e1d3edc9efc2c45eb268c20636301d",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "notebook",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "02f9c3d0de90f1bd447a38bc537e5dde74ac6d3499715275dc60e2bdff19332c",
+      "context_rep": 1,
+      "distractor": "wallet",
+      "distractor_location": "drawer",
+      "id": "793ceccffbd436cd79f1d7107710a1a388e2dbec133e85e11e021a6bf3ad322b",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "watch",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "ae6d43bd0d7f2eeb4cc9554795fc7473ae1fe6e9f9bfc3b92b913a0c5a388e79",
+      "context_rep": 2,
+      "distractor": "card",
+      "distractor_location": "basket",
+      "id": "75d8c8dda621fb971224139d2eb1642cea812cddb78db71dac1e2c85b72d42c3",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "notebook",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Alice",
+      "base": "box",
+      "coarse_core_key": "6a5dc5f16d6da4af6c10b905efb9b34467c990370a812e1bfe868894e6838cb9",
+      "context_rep": 0,
+      "distractor": "ticket",
+      "distractor_location": "basket",
+      "id": "d2d106d3db51a04b21454be35f10f495f058525a80142d668d7a3c79b56a1fde",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "photo",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "e063a7b6e3caa934944c05a348d57007228077631fe38fb977bd3b64371841bc",
+      "context_rep": 1,
+      "distractor": "bottle",
+      "distractor_location": "closet",
+      "id": "2c9146cc8498f6e2b22eecd7193fcb554c6e531a1581a3f0a76241e6af23449c",
+      "initial": "shelf",
+      "mapping_disagreement": true,
+      "object": "letter",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "0884c17536dc79ad265eaeba8e4d09c2939118d1eaeb405797650cd7e0ba18ea",
+      "context_rep": 2,
+      "distractor": "letter",
+      "distractor_location": "closet",
+      "id": "9cacb39770e7643dfb7b8ae445067eb15721b9e76ffe2c85c3e3e5a27f6b083d",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "wallet",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "closet",
+      "coarse_core_key": "59c5bba73722ccab81b1710abcd1f239ce962861b2998fef261294a453142138",
+      "context_rep": 0,
+      "distractor": "coin",
+      "distractor_location": "basket",
+      "id": "e7b2ebbeb4835acbeb7b5c3675ecc1d4f111d0bbe34626843535972c313a2ecb",
+      "initial": "shelf",
+      "mapping_disagreement": true,
+      "object": "card",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "cc60fe46fae447adf7d816a81aa2c3973e2369b5b3786d95e165ad77e7fb6748",
+      "context_rep": 0,
+      "distractor": "toy",
+      "distractor_location": "basket",
+      "id": "f3622f3db7829a1907196b5d23e333eb6091805e602c29c3bdeb235a6e090ad8",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "photo",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "e9af41f8f4354545e1e2d62923ce840b5b9da616baf3e79db3e29d93157b87c4",
+      "context_rep": 0,
+      "distractor": "letter",
+      "distractor_location": "drawer",
+      "id": "1764a109db1c7d3eaa7f94a7c299a29ba87371b264d5177aa76869a65d822f67",
+      "initial": "cabinet",
+      "mapping_disagreement": true,
+      "object": "cup",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "dce171ee6cd0db9d29163cb65f40982aac10713f44fbff90d18a00aa0039b286",
+      "context_rep": 2,
+      "distractor": "map",
+      "distractor_location": "cabinet",
+      "id": "f201898078509e51daa92706aaced1e51861329811437b4ee4eee6c792b723e0",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "photo",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "bc9a8896776feda9ca44e22dff56c981140df43d9d78c7872f0955373b13d2ab",
+      "context_rep": 2,
+      "distractor": "ring",
+      "distractor_location": "closet",
+      "id": "05b4d1e28b5f953c9a1e79615ec83295b8286141e37df481c8baa32a5bcd9a3a",
+      "initial": "closet",
+      "mapping_disagreement": false,
+      "object": "bottle",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "a831256f6c2967b2ede8ed59f9af5ad9f922a488ce343e208ec279972fbda995",
+      "context_rep": 2,
+      "distractor": "toy",
+      "distractor_location": "cabinet",
+      "id": "6743878cd4a3ba3dab1cafe4d16a94c1ac35bce63e5ed3206758746bf0a4589e",
+      "initial": "drawer",
+      "mapping_disagreement": true,
+      "object": "wallet",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "9fee17e1b20ba4dd7e6f51df633a12faea94bf27a893a05102dab5e13c1cada2",
+      "context_rep": 1,
+      "distractor": "scarf",
+      "distractor_location": "drawer",
+      "id": "4732f2df8688c75472a59acf1fdcab37040f35d3a5be8074e8f5f7e5a2b00645",
+      "initial": "cabinet",
+      "mapping_disagreement": true,
+      "object": "badge",
+      "other": "Bob",
+      "source": "basket",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "015c56a5c218642113b41e46ed1be62ebaebd27213ef090536d328c82a3f4244",
+      "context_rep": 1,
+      "distractor": "letter",
+      "distractor_location": "cabinet",
+      "id": "602eaa875d84197fa682c3247063acd3ca211e05d407ad8a747980cbf7bc481c",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "phone",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "784c221118985e13e12b8eb0496fc30f779e574d6ded96ca1bce93c7418b9518",
+      "context_rep": 0,
+      "distractor": "pen",
+      "distractor_location": "box",
+      "id": "cbe185847cbe8dce5d0ce6bf71982f8ec4054c28f5fed31ec9ff4cd84cb8f56c",
+      "initial": "cabinet",
+      "mapping_disagreement": false,
+      "object": "photo",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "basket",
+      "coarse_core_key": "2a29bd5463f048da21b947f9ee4486cd31b16d409f3dcd730e30a29dd482e182",
+      "context_rep": 1,
+      "distractor": "cup",
+      "distractor_location": "drawer",
+      "id": "f765d3bb704f4cd394573f4cb1d76c38d7945915788120dc1eee442eca9cfa28",
+      "initial": "drawer",
+      "mapping_disagreement": false,
+      "object": "notebook",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "box"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "170aef15ec100e66b2b6b4da7d4e847524057f4ada693417f4b51cbcf7f909b3",
+      "context_rep": 0,
+      "distractor": "scarf",
+      "distractor_location": "cabinet",
+      "id": "b5f4509219586b6791b6bd5d282f4137127b193bd5d5ac5df7228ec9b2b9cc50",
+      "initial": "cabinet",
+      "mapping_disagreement": true,
+      "object": "card",
+      "other": "Alice",
+      "source": "basket",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "shelf",
+        "m3": "box"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "0c716e18e77203532202c8e9b9aa464c9de4452abc7d0eff80b3948b2cb01b8e",
+      "context_rep": 1,
+      "distractor": "card",
+      "distractor_location": "closet",
+      "id": "56bd14f1a3fa99e975c828c1400a3f5e356083c92d9fa072d63f442c4262fe1c",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "notebook",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "drawer"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "ee40758eb72625f38cd415c885c6943fdcc01937f49e4ab2a8bea6455b846553",
+      "context_rep": 1,
+      "distractor": "photo",
+      "distractor_location": "cabinet",
+      "id": "79fc6ad2b588f7f3c8ef024b1d1ae31e14e6f3d650d453b456ef49aaafbfda89",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "pen",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "closet",
+      "coarse_core_key": "f7df23b3786cc7071314896b3edc847fd005f9f0ad5ee26e849d030b87a68b1f",
+      "context_rep": 2,
+      "distractor": "card",
+      "distractor_location": "closet",
+      "id": "1dddd28ac146a5e598b7b5998b3b6bdb138da7662ab088d348a6fc7d4e68deb1",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "phone",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "ff4f9eb93ef8caec10f681f2e4ccac91798a71248c3f038f7934008228d51e98",
+      "context_rep": 0,
+      "distractor": "badge",
+      "distractor_location": "closet",
+      "id": "9802cb8596b57db2ad070a9d3aaeab3739f63d187edd8f9ede4eaf2285947a02",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "coin",
+      "other": "Bob",
+      "source": "box",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "shelf",
+      "coarse_core_key": "6b08a83664656ca1e4c305bd1372296e1ba09936ba88e7eaf97c261385369983",
+      "context_rep": 1,
+      "distractor": "card",
+      "distractor_location": "closet",
+      "id": "911ddeee0504334d8e06f1278f0e3519a9f9d386baf853fd5759833a3b4b7c21",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "pen",
+      "other": "Alice",
+      "source": "shelf",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "drawer",
+        "m3": "drawer"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "6318f09fda29003e5df5892d2403d0f6b0b50860755f1f6e485d6580da4b1567",
+      "context_rep": 0,
+      "distractor": "badge",
+      "distractor_location": "drawer",
+      "id": "73197d54d5489c4ff38b60e5fc63d8107f5aadc375bb47c0270481592d081c46",
+      "initial": "shelf",
+      "mapping_disagreement": false,
+      "object": "card",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "base_equals_source",
+        "m3": "base_equals_source"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "cabinet"
+    },
+    {
+      "agent": "Bob",
+      "base": "cabinet",
+      "coarse_core_key": "623f7eba551acd4511733157e9f54fe09f3bbff826ddee05bd6cdf24cc2b9072",
+      "context_rep": 0,
+      "distractor": "bottle",
+      "distractor_location": "closet",
+      "id": "00908fa5e72dbfc35f1226b6dba01dd4578d69be939063394bc746b0fcd3d8c0",
+      "initial": "shelf",
+      "mapping_disagreement": true,
+      "object": "candle",
+      "other": "Alice",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "basket"
+    },
+    {
+      "agent": "Alice",
+      "base": "drawer",
+      "coarse_core_key": "b1c3e7512243d032e4d5e68619d2095b458b6aa66025d6a8c12393ac8f2ff075",
+      "context_rep": 1,
+      "distractor": "photo",
+      "distractor_location": "drawer",
+      "id": "34a31f3cbddb1060d7475cbf4b4f64c8049a5ba5b6f625828ea5dc02c10a5b92",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "book",
+      "other": "Bob",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "basket",
+      "coarse_core_key": "9470e7fb94dfc67b58b342ffc2b6841589fb2621938508c55074e256bead30d9",
+      "context_rep": 0,
+      "distractor": "letter",
+      "distractor_location": "cabinet",
+      "id": "b67ca1fa62da782caf169a08452ca65948b90e365a37b2ef3970babef2f31352",
+      "initial": "drawer",
+      "mapping_disagreement": false,
+      "object": "candle",
+      "other": "Alice",
+      "source": "box",
+      "strata": {
+        "m1": "base_equals_target",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "basket",
+        "m3": "basket"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "shelf",
+      "coarse_core_key": "8dc409ccb29fac8b481875857966c5f9200f76ca0a3c3bda602e8fcefd1807a8",
+      "context_rep": 2,
+      "distractor": "badge",
+      "distractor_location": "cabinet",
+      "id": "8ad7c5ec1e09b8c6e611741c7a675676e0c548d4402d43b934d07eb84d11fee6",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "map",
+      "other": "Bob",
+      "source": "drawer",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "cabinet",
+        "m3": "shelf"
+      },
+      "update": "closet"
+    },
+    {
+      "agent": "Bob",
+      "base": "box",
+      "coarse_core_key": "9f6b0bd1468984797444d90745567b0e4bf828aeb7a44834f6cb9630c970d3b4",
+      "context_rep": 1,
+      "distractor": "phone",
+      "distractor_location": "box",
+      "id": "98989e766382a83085ff6bea63c8096492e053daf99cab745d4678375e90ca48",
+      "initial": "basket",
+      "mapping_disagreement": false,
+      "object": "scarf",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Bob",
+      "base": "drawer",
+      "coarse_core_key": "38b89f9e34e178f3dcfc35632e1a3b70b040b04f2d06e5fd5543c1d06d779b31",
+      "context_rep": 2,
+      "distractor": "cup",
+      "distractor_location": "cabinet",
+      "id": "3bbea70af23311775b81ef1611488659e68ab55a05516529a8e6267bf288248c",
+      "initial": "box",
+      "mapping_disagreement": false,
+      "object": "card",
+      "other": "Alice",
+      "source": "cabinet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "all_distinct"
+      },
+      "targets": {
+        "m1": "closet",
+        "m3": "closet"
+      },
+      "update": "shelf"
+    },
+    {
+      "agent": "Alice",
+      "base": "cabinet",
+      "coarse_core_key": "10e75cef76f0153342a731deb1be283a8ae7fd6423c12b2bffe66f42bdec1c87",
+      "context_rep": 1,
+      "distractor": "notebook",
+      "distractor_location": "closet",
+      "id": "96e6e413d8f48508d461ce3b5e68ce1d3de883221f9396a7e0610d6878d09e0c",
+      "initial": "basket",
+      "mapping_disagreement": true,
+      "object": "toy",
+      "other": "Bob",
+      "source": "closet",
+      "strata": {
+        "m1": "all_distinct",
+        "m3": "base_equals_target"
+      },
+      "targets": {
+        "m1": "box",
+        "m3": "cabinet"
+      },
+      "update": "shelf"
+    }
+  ],
+  "views": [
+    "direct",
+    "observer_table1",
+    "observer_table2",
+    "nonobserver_table1",
+    "nonobserver_table2"
+  ]
+}

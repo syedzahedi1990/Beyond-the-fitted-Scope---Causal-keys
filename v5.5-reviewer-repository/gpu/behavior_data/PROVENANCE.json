@@ -1,0 +1,91 @@
+{
+  "kind": "Exact saved semantic records, no regeneration",
+  "sources": {
+    "training": {
+      "source": "mistral_matched/data/original_training.json",
+      "sha256": "f267645ed9b3e6ba0317a1da908b162986d3482b5ad2792f53e1f4964692ad00",
+      "records": 1000
+    },
+    "mapping_training": {
+      "same_records_as": "training",
+      "source": "qwen_four_function/data/train_pairs.json",
+      "sha256": "f267645ed9b3e6ba0317a1da908b162986d3482b5ad2792f53e1f4964692ad00"
+    },
+    "calibration/independent_template": {
+      "source": "mistral_matched/data/qwen72_lockbox__independent_template__calibration.jsonl",
+      "sha256": "2ad38b5d539698ceb2f10a09168e1d503c30242eb1e477709772b4841d02bd27",
+      "records": 60
+    },
+    "calibration/choice_order": {
+      "source": "mistral_matched/data/qwen72_lockbox__choice_order__calibration.jsonl",
+      "sha256": "58ac06635e1bf940b7eab5c26dc7896036234466e03e7fa6f2667c3b8835c9ff",
+      "records": 60
+    },
+    "calibration/lexical_support": {
+      "source": "mistral_matched/data/qwen72_lockbox__lexical_support__calibration.jsonl",
+      "sha256": "ce7e4030e167b05a2cbf7c420de710f8aa31c55ec5b5d472eeff47e95e2dd41f",
+      "records": 60
+    },
+    "calibration/distractor_structure": {
+      "source": "mistral_matched/data/qwen72_lockbox__distractor_structure__calibration.jsonl",
+      "sha256": "e5f22a6e047784d2a1ee0313ed7ebacd108bb054484da6ff47d90b71d891b590",
+      "records": 60
+    },
+    "calibration/joint_shift": {
+      "source": "mistral_matched/data/qwen72_lockbox__joint_shift__calibration.jsonl",
+      "sha256": "c9cfeba20149c39652c3e43a64e7a91c04d9e6cc0cc916f3c913f7da7e16e506",
+      "records": 60
+    },
+    "lockbox/independent_template": {
+      "source": "mistral_matched/data/qwen72_lockbox__independent_template__lockbox.jsonl",
+      "sha256": "87c7dced047edf89d3cd13a0c564cc0dcfd6f71869c2994dde7098d1f50467d0",
+      "records": 300
+    },
+    "lockbox/choice_order": {
+      "source": "mistral_matched/data/qwen72_lockbox__choice_order__lockbox.jsonl",
+      "sha256": "685cd5895727bc79b302ecf58771b0e1bbe02647be4f9fc1dcae8f7391d0ae71",
+      "records": 300
+    },
+    "lockbox/lexical_support": {
+      "source": "mistral_matched/data/qwen72_lockbox__lexical_support__lockbox.jsonl",
+      "sha256": "100cce7131a044d97100c381cb323a55f34878ca579c46bace2a46608fd4e87f",
+      "records": 300
+    },
+    "lockbox/distractor_structure": {
+      "source": "mistral_matched/data/qwen72_lockbox__distractor_structure__lockbox.jsonl",
+      "sha256": "09f5e7af9b5d0df4bd3b248adf1eb7bd9887576449412cd7fd98f699b0e7f19d",
+      "records": 300
+    },
+    "lockbox/joint_shift": {
+      "source": "mistral_matched/data/qwen72_lockbox__joint_shift__lockbox.jsonl",
+      "sha256": "615fb46649d91dd267fb096c6cfaabf09ea12c88899402d9cad89a6b2f495498",
+      "records": 300
+    },
+    "discovery": {
+      "source": "mistral_matched/data/two_agent_discovery.json",
+      "sha256": "5a5cc55527857c450d9ce87800ea74606e9ebe35bda45f0049226d75d8ec8489",
+      "records": 120
+    },
+    "checking": {
+      "source": "mistral_matched/data/two_agent_checking.json",
+      "sha256": "e7f589d43395015f50a4dd38c41e64215aedaee81bd046040c42d2dd58c8a74d",
+      "records": 120
+    }
+  },
+  "compressed_sha256": "c3c3027bd57a5ec4a28df7975e0d9820fd5f67ff4c1739aefdb34540524002b1",
+  "counts": {
+    "training": 1000,
+    "calibration/independent_template": 60,
+    "calibration/choice_order": 60,
+    "calibration/lexical_support": 60,
+    "calibration/distractor_structure": 60,
+    "calibration/joint_shift": 60,
+    "lockbox/independent_template": 300,
+    "lockbox/choice_order": 300,
+    "lockbox/lexical_support": 300,
+    "lockbox/distractor_structure": 300,
+    "lockbox/joint_shift": 300,
+    "discovery": 120,
+    "checking": 120
+  }
+}

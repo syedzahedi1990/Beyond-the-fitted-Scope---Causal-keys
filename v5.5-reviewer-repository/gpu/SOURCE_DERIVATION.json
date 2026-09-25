@@ -1,0 +1,526 @@
+{
+  "inputs": [
+    {
+      "path": "component_data/native_story_120.json",
+      "sha256": "22af9f5bcd15e89fa3eb804b246507124a6c12990f0356f3527d6e900f25d931",
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/stories.json"
+    },
+    {
+      "path": "component_data/fixed_value_72.json",
+      "sha256": "ebe2e02983cf76095df73c04635dab367b2d94c69f1397607d99a1266c1c8a4c",
+      "source": "learned-key-natural-value-confirmation-2026-09-16/inputs/data/confirmation.json"
+    },
+    {
+      "path": "component_data/mapping_108.json",
+      "sha256": "fa52789ca514d3ebf5cad305a202bce12c29a88945132acbf36f1ca3a24999a0",
+      "source": "mapping-robustness-2026-09-23/inputs/data/confirmation.json"
+    },
+    {
+      "path": "component_data/orientations.npz",
+      "sha256": "75464c674b53d11293844eea3eb95452472745b2da68a46033f6dee8dd273de5",
+      "source": "mapping-robustness-2026-09-23/inputs/orientations.npz"
+    },
+    {
+      "derivation": "repo_id/revision/files only; removed operational metadata and unused absolute per-file path fields; relative_path/digests/sizes unchanged",
+      "path": "component_data/mistral_assets.json",
+      "sha256": "e9fb93c29d6190e6019c3cd36824979a79c6085e9a6cb4c406e70176937535e8",
+      "source": "mistral-mapping-replication-2026-09-24/inputs/models/mistral/ASSET_RECEIPT.json"
+    },
+    {
+      "derivation": "repo_id/revision/files only; removed operational metadata",
+      "path": "component_data/qwen_assets.json",
+      "sha256": "5bcc763b179bd568e11603e975a0fb47b2fd47ad46de278cdd2059bc3628ee4d",
+      "source": "mapping-robustness-2026-09-23/inputs/models/qwen/ASSET_RECEIPT.json"
+    }
+  ],
+  "kind": "derived_reviewer_sources_not_historical_run_seals",
+  "sources": [
+    {
+      "changes": [
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 5,
+        "filename": "runtime/mistral_engine.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "aa674324075402149c9afdbf98a99714907c66fced47381849d0630333d92d4f",
+        "original_bytes": 24132,
+        "original_encoding": "utf-8",
+        "original_sha256": "e6d94cf51a3d573d99004208397733d9ea25b6f0fd75ff0a4106f8122a15efc1",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 23601,
+        "transformed_sha256": "1ff1027a9fc2ddc840cf38c679920dbc0942d8f2f5c921557243ffde71493df8",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mistral-mapping-replication-2026-09-24/inputs/vendor/mistral/engine.py",
+        "sha256": "e6d94cf51a3d573d99004208397733d9ea25b6f0fd75ff0a4106f8122a15efc1"
+      },
+      "path": "runtime/mistral_engine.py",
+      "sha256": "1ff1027a9fc2ddc840cf38c679920dbc0942d8f2f5c921557243ffde71493df8"
+    },
+    {
+      "changes": [
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 3,
+        "filename": "runtime/mistral_relay.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "bb8d8cda6b1699a9c44ebfb02de2b78250f05c24a44a850ced0514e89c0f58f0",
+        "original_bytes": 18814,
+        "original_encoding": "utf-8",
+        "original_sha256": "0b34c34760dc4888c8ca1822d44f4a2536439bc034bad35d2660a73c0c33da4e",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 18358,
+        "transformed_sha256": "8d06406fbc0ab5bedb8336bb44301d3f924534e55c6e834799d36b716537c2ad",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mistral-mapping-replication-2026-09-24/inputs/vendor/mistral/relay_edge_engine.py",
+        "sha256": "0b34c34760dc4888c8ca1822d44f4a2536439bc034bad35d2660a73c0c33da4e"
+      },
+      "path": "runtime/mistral_relay.py",
+      "sha256": "8d06406fbc0ab5bedb8336bb44301d3f924534e55c6e834799d36b716537c2ad"
+    },
+    {
+      "changes": [
+        "comment/docstring removal",
+        "from geometry import -> from .qwen_geometry import"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 5,
+        "filename": "runtime/qwen_engine.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "df6318be3397d46d47df4f119f6d2d2c7ab4512e431d3eb3f42c58a38a0c1cd9",
+        "original_bytes": 24560,
+        "original_encoding": "utf-8",
+        "original_sha256": "98984d4d414a7512b80273b2f3001e9d387615772578921146b4ef5f1ed3b050",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 24048,
+        "transformed_sha256": "a1cf60bd8ae774314146d334dc2531a1ba3b99bccfaca18d8617d9dba480ab86",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mapping-robustness-2026-09-23/inputs/vendor/qwen/engine.py",
+        "sha256": "7a4592f2cabc396d4292f13d7284d2f458c7f544932170951efebdc255af7853"
+      },
+      "path": "runtime/qwen_engine.py",
+      "sha256": "a1cf60bd8ae774314146d334dc2531a1ba3b99bccfaca18d8617d9dba480ab86"
+    },
+    {
+      "changes": [
+        "comment/docstring removal",
+        "from geometry import -> from .qwen_geometry import"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 3,
+        "filename": "runtime/qwen_relay.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "02f05fdb7cbff7e5667881817c0e97dfb4825b22b78524de786825107b55135b",
+        "original_bytes": 18998,
+        "original_encoding": "utf-8",
+        "original_sha256": "b7c09017e7f6f5451a0d14407e1ebb43c56b0afd84d12241936b47af14d54177",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 18542,
+        "transformed_sha256": "6a50eef9eb2fe25185495f6c0d86f49b4ee26aa38032b4ff8d6bfe9a1cabc84f",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mapping-robustness-2026-09-23/inputs/vendor/qwen/relay_edge_engine.py",
+        "sha256": "4518c6a54fe18d7745e59ff2224ad0bb1a66a46bd16ecf4d3369dcb0472a914b"
+      },
+      "path": "runtime/qwen_relay.py",
+      "sha256": "6a50eef9eb2fe25185495f6c0d86f49b4ee26aa38032b4ff8d6bfe9a1cabc84f"
+    },
+    {
+      "changes": [
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 1,
+        "filename": "runtime/qwen_geometry.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "187691fac5ca41c736a8592ad949d9aafa3052483c73cda550c5f86e4a5c1cb1",
+        "original_bytes": 738,
+        "original_encoding": "utf-8",
+        "original_sha256": "c14f8a1c97b3685c6c0661870dd527467cb24cb73176b1371a90b00eb899de6e",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 738,
+        "transformed_sha256": "e5fcbe40cea881161dbab00f82221cf89c5c81ebaf9eb8a52d71726ddc1e5528",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mapping-robustness-2026-09-23/inputs/vendor/qwen/geometry.py",
+        "sha256": "c14f8a1c97b3685c6c0661870dd527467cb24cb73176b1371a90b00eb899de6e"
+      },
+      "path": "runtime/qwen_geometry.py",
+      "sha256": "e5fcbe40cea881161dbab00f82221cf89c5c81ebaf9eb8a52d71726ddc1e5528"
+    },
+    {
+      "changes": [
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 5,
+        "docstrings_removed": 5,
+        "filename": "runtime/key_engine.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "21bc9130596c6bfd13e2427011b720ca574bfe4cb89c09446255e360f589271b",
+        "original_bytes": 24071,
+        "original_encoding": "utf-8",
+        "original_sha256": "1cb0dd93069c4e2c9d37256d457faa9fdfe5a9e629770762d5f8eeac960f11de",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 23592,
+        "transformed_sha256": "d123a5556eec495ff303d1a2d32eccd0513ddd5f69e45d3c8925847e540277a5",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mechanism-generality-2026-09-21/src/key_only_engine.py",
+        "sha256": "1cb0dd93069c4e2c9d37256d457faa9fdfe5a9e629770762d5f8eeac960f11de"
+      },
+      "path": "runtime/key_engine.py",
+      "sha256": "d123a5556eec495ff303d1a2d32eccd0513ddd5f69e45d3c8925847e540277a5"
+    },
+    {
+      "changes": [
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 1,
+        "filename": "runtime/null_control.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "b2c49e4375827a74ec0ed50520ae9fff712250280912bc04b090a331ab8864c9",
+        "original_bytes": 1495,
+        "original_encoding": "utf-8",
+        "original_sha256": "94a6ce74d5e8f4b4236607ddede39f5cb9940b076dddf333fa0b11f911e07a36",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 1495,
+        "transformed_sha256": "e5d276c652e06240b6ff53150f669ac9e1b1c88ff1640dfb12d357ef3f15d5b7",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mapping-robustness-2026-09-23/src/null_control.py",
+        "sha256": "94a6ce74d5e8f4b4236607ddede39f5cb9940b076dddf333fa0b11f911e07a36"
+      },
+      "path": "runtime/null_control.py",
+      "sha256": "e5d276c652e06240b6ff53150f669ac9e1b1c88ff1640dfb12d357ef3f15d5b7"
+    },
+    {
+      "changes": [
+        "Selected unchanged renderer definitions; imports reduced",
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 3,
+        "filename": "runtime/story_task.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "5c7b595d6f176b46e30f290ec46c0ab7809dd4426314362a2e4d294214da234a",
+        "original_bytes": 5913,
+        "original_encoding": "utf-8",
+        "original_sha256": "c1c9745a62a3ded05e3cf3163cee0ce652c3a27967bf9bf54252e8798d4bd3b8",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 5913,
+        "transformed_sha256": "0f537050bd183ea15f60eef0a4e482a4984ae2a9be1f338c4c734c42596f5cb4",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mistral-mapping-replication-2026-09-24/inputs/vendor/mistral/inherited_task.py",
+        "sha256": "cc85c939830353121c0cd99ede0eb986d03342b1e343d70eff67a0b4683b706e"
+      },
+      "path": "runtime/story_task.py",
+      "sha256": "0f537050bd183ea15f60eef0a4e482a4984ae2a9be1f338c4c734c42596f5cb4"
+    },
+    {
+      "changes": [
+        "Selected unchanged renderer definitions; imports reduced",
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 0,
+        "filename": "runtime/color_task.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "42435ff408a8a91dfd07a70f27faf43086e43f41a6e5abdb1457ff81d957ef81",
+        "original_bytes": 2169,
+        "original_encoding": "utf-8",
+        "original_sha256": "38253949129e403a29f54d2b83061ac15a45c73491c2774f4b864c4b3644a3d0",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 2169,
+        "transformed_sha256": "38253949129e403a29f54d2b83061ac15a45c73491c2774f4b864c4b3644a3d0",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mistral-mapping-replication-2026-09-24/inputs/vendor/mistral/color_task.py",
+        "sha256": "d062d4511358f18c04f21c43fe5fb02c5b185ee77fe34ec328d6403051705d49"
+      },
+      "path": "runtime/color_task.py",
+      "sha256": "38253949129e403a29f54d2b83061ac15a45c73491c2774f4b864c4b3644a3d0"
+    },
+    {
+      "changes": [
+        "Selected unchanged renderer definitions; imports reduced",
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 2,
+        "filename": "runtime/encoding.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "1e685480080eb5ae0db639971f703ab572a01c6b497f5658517348c0a4d9ce07",
+        "original_bytes": 5271,
+        "original_encoding": "utf-8",
+        "original_sha256": "940d67f48759228d3e758a870c113d01fba64163c02b4a0f577cb5df102fc598",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 5271,
+        "transformed_sha256": "6f19193267b7ff09d329f8e8d290862c66b7bd302e6237dd5282c94e79264785",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "mistral-mapping-replication-2026-09-24/inputs/vendor/mistral/alphabet_adapter.py",
+        "sha256": "70e406917d0ba3fa246cd8f4087569554ae9d83b17c32dd05de0e6c33c141fc6"
+      },
+      "path": "runtime/encoding.py",
+      "sha256": "6f19193267b7ff09d329f8e8d290862c66b7bd302e6237dd5282c94e79264785"
+    },
+    {
+      "changes": [],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 0,
+        "filename": "__init__.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "3543b4693a36a1098850b8bc928887694ed59a6deb7d3dfd0339de01f55a77b6",
+        "original_bytes": 0,
+        "original_encoding": "utf-8",
+        "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 0,
+        "transformed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "kind": "new package marker"
+      },
+      "path": "__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "changes": [],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 0,
+        "filename": "runtime/__init__.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "3543b4693a36a1098850b8bc928887694ed59a6deb7d3dfd0339de01f55a77b6",
+        "original_bytes": 0,
+        "original_encoding": "utf-8",
+        "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 0,
+        "transformed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "kind": "new package marker"
+      },
+      "path": "runtime/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "changes": [],
+      "comment_transform": {
+        "comments_removed": 0,
+        "docstrings_removed": 0,
+        "filename": "tests/__init__.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "3543b4693a36a1098850b8bc928887694ed59a6deb7d3dfd0339de01f55a77b6",
+        "original_bytes": 0,
+        "original_encoding": "utf-8",
+        "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 0,
+        "transformed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "kind": "new package marker"
+      },
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "changes": [
+        "Use recipient reference class and native decoder depth for both existing model profiles; retain component-only synthetic provenance and clone/hash guards",
+        "comment/docstring removal"
+      ],
+      "comment_transform": {
+        "comments_removed": 1,
+        "docstrings_removed": 1,
+        "filename": "runtime/hybrid_refs.py",
+        "hash_policy": "Original frozen seals identify originals, not transformed copies.",
+        "normalized_ast_equal": true,
+        "normalized_ast_sha256": "5e4d327766b5347ac5f81892e33892ccfe5e951690d86c737955f126a93bc8f5",
+        "original_bytes": 6602,
+        "original_encoding": "utf-8",
+        "original_sha256": "033546239e819eacd4c0ad334a2c3b0392fb9aea152c652551c3e41fdbb58a26",
+        "output_encoding": "utf-8",
+        "runtime_caveats": [
+          "__doc__ and introspection/help using docstrings intentionally change.",
+          "Invoke with Python: an original shebang is removed.",
+          "Line/column metadata and source inspection may change.",
+          "Type-checker/linter/coverage directives in comments are removed."
+        ],
+        "syntax": "PASS",
+        "transformed_bytes": 6204,
+        "transformed_sha256": "684d626b3230e6c05ed52f66771eb8ada0df6ae66cafed34f4a0acc8c7531827",
+        "version": "python-comments-and-docstrings-v1",
+        "zero_comment_tokens": true,
+        "zero_true_docstrings": true
+      },
+      "original": {
+        "path": "kv-source-factorial-development-2026-09-16/src/hybrid_refs.py",
+        "sha256": "df6ecc6d5a93e28a9902423e106ead1e7e9966a6e074f52b895b4b095c5b4328"
+      },
+      "path": "runtime/hybrid_refs.py",
+      "sha256": "684d626b3230e6c05ed52f66771eb8ada0df6ae66cafed34f4a0acc8c7531827"
+    }
+  ]
+}

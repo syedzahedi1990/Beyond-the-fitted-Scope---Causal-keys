@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-gpu/
+venv/
+.DS_Store
+.pytest_cache/
+.matplotlib/
+reproduced/
+runs/
+models/
+*.log
+.env

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "scope": "Lossless selected scalar decisions, probabilities and story labels from completed saved evidence. This does not authenticate native model execution or omitted tensors.",
+  "sources": [
+    {
+      "path": "updated paper v5.1/analysis/inputs/qwen_normalized.json",
+      "sha256": "19d7c3af77de4a5479ea62ced7c44a9c70bc02ac1312fa54063cd2fbe9773415",
+      "bytes": 28507766
+    },
+    {
+      "path": "updated paper v5.1/analysis/inputs/mistral_normalized.json",
+      "sha256": "c62f251a761814becdb80ecb0f95bfe88554b4eb482fecf19a0fb0288f8bc7da",
+      "bytes": 28871416
+    },
+    {
+      "path": "updated paper v5.1/analysis/inputs/data/consequence_discovery.json",
+      "sha256": "5a5cc55527857c450d9ce87800ea74606e9ebe35bda45f0049226d75d8ec8489",
+      "bytes": 39720
+    },
+    {
+      "path": "updated paper v5.1/analysis/inputs/data/consequence_checking.json",
+      "sha256": "e7f589d43395015f50a4dd38c41e64215aedaee81bd046040c42d2dd58c8a74d",
+      "bytes": 39605
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/f_star_ts101.json",
+      "sha256": "e17fc40a6d0ddd6c725a90c6d228250376e72102fc52f79d42f5a85edeb30c79",
+      "bytes": 30132409
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/f_star_ts102.json",
+      "sha256": "bbcbce4969c541a836e22f7a81a03d22f70969e91191f7aa963701d219e51c9f",
+      "bytes": 30132391
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/f_star_ts103.json",
+      "sha256": "f5d0a9377f4197e4785eff9b03c85c3cbc280b071c9fbf24cfadef688fd12ed3",
+      "bytes": 30133033
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m0_legacy_ts101.json",
+      "sha256": "04aecc870990a06faff6b16b4cf2fb3f809bd14c3920ce6324c8a381ab34d284",
+      "bytes": 30137931
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m0_legacy_ts102.json",
+      "sha256": "c690357539b7a66e8ad248837f052228e1105914ab399b5cafe51abdaa067db9",
+      "bytes": 30138597
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m0_legacy_ts103.json",
+      "sha256": "34f59c0d3c6ff5b60f2ef15b1beac3a17f78c1167d5a76c3e0ad3661f9764733",
+      "bytes": 30138075
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m1_ts101.json",
+      "sha256": "b7f3bfdff67ba2d4faefdb3fe01aea4fb49206e7a661aa48684d3238b80c517f",
+      "bytes": 30138499
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m1_ts102.json",
+      "sha256": "7d8f4593796432e3e030bd851b0677345d8998b8a3b8d8205ad65e8c5abb873d",
+      "bytes": 30138057
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m1_ts103.json",
+      "sha256": "92fcc0bc65eb7744b0810ac7b0f724ea7237a0b190bec079918b0c89290a33d7",
+      "bytes": 30138494
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m3_ts101.json",
+      "sha256": "493bf19fcf817891eb78a6cbe55760bea849a94e2a57a3ee4ffce3de83cde5e1",
+      "bytes": 30137531
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m3_ts102.json",
+      "sha256": "177bcfc040c90ce77ea0aa308d26cba18329c956a62c6fb7c616a10ffeb748fe",
+      "bytes": 30138111
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/central_72b_bf16_and_semantic_v6/results/central_12fit/raw_run/fits/m3_ts103.json",
+      "sha256": "cfc0429138682131c4fe5a48cb77a353ca9139e114b9528096d2e2162464bf5e",
+      "bytes": 30137883
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/supporting_experiments_v26/artifacts/das_runs_qwen25_7b/das_qwen_layer4_r16_r64_n200_steps300.json",
+      "sha256": "044cf4de35867af45583762c8585a186ffc2feaa47658e8e4425c0245c363b2c",
+      "bytes": 10515986
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/supporting_experiments_v26/artifacts/das_runs_mistral_7b/das_mistral_layer4_r16_r64_n200_steps300.json",
+      "sha256": "16f5f67eebaa18dacbc5f6eda575742f243b386348434b88881d29da03ac4ec4",
+      "bytes": 11852935
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/supporting_experiments_v26/artifacts/subspace_runs_qwen25_7b/subspace_qwen_layer4.json",
+      "sha256": "24c3c51a054b838c8c8c4c2e06ac548cbea810820860fb47c812ccb86ed83ccb",
+      "bytes": 609857
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/supporting_experiments_v26/artifacts/event_subspace_runs_qwen25_7b/event_subspace_qwen_layer4_n500.json",
+      "sha256": "e6a89600fe38745b465a6f15a9a9bbc31fbf2ab123f4e1f723c405bcda367981",
+      "bytes": 5445888
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/supporting_experiments_v26/artifacts/event_subspace_runs_mistral_7b/event_subspace_mistral_layer4_n200.json",
+      "sha256": "d46732be2f69ea6708e58bf44a4a456bbf9b816b4a5cf8e57111766d74468e10",
+      "bytes": 2582951
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/applicability_screens/runtimefix/data/belief_development.json",
+      "sha256": "ba729a93f840af04e36505d5345efc83059f490cf136b2970def2eea4e52aa45",
+      "bytes": 23327
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/applicability_screens/runtimefix/results/gpu/belief_development.json",
+      "sha256": "549a74cdf3aadd1a12a6beecabc60337d70ccfcaf87cfe490f240e053a2624fc",
+      "bytes": 4378718
+    },
+    {
+      "path": "ICLR2027_Causal_Alignment_SUBMISSION_CONTINUATION_AUDITED_2026-09-08/02_ANONYMOUS_CODE_DATA_RESULTS/applicability_screens/runtimefix/experiments/belief_task.py",
+      "sha256": "96b7aa03419ea3813f45e0515ef814cfc4845d3920e98a3236bbf126f620f93e",
+      "bytes": 9817
+    },
+    {
+      "path": "updated paper v5.1/route_saved_rows/inputs/pilot_stories.json",
+      "sha256": "05a523167c40c3961df8465ad6878bfa226e28e24c7602d0c8fb47f8559efaaf",
+      "bytes": 21601
+    },
+    {
+      "path": "updated paper v5.1/route_saved_rows/inputs/pilot.jsonl.gz",
+      "sha256": "b8475b7c12043e7c372a885d11a31fbeff35de86fbad505b769191f373a901d1",
+      "bytes": 232672
+    },
+    {
+      "path": "updated paper v5.1/route_saved_rows/inputs/development_stories.json",
+      "sha256": "4d5c0f53c799f935458850e5aa5cead8000c1f7ac4f47f54ff0a64a31249d038",
+      "bytes": 4659
+    },
+    {
+      "path": "updated paper v5.1/route_saved_rows/inputs/development.jsonl.gz",
+      "sha256": "c2ec37f75b84aa163dce05a94f46d093343bd2933116d2a1d9792ce01470cc8e",
+      "bytes": 55265
+    },
+    {
+      "archive": "ICLR finished draft v5/ICLR finished draft v5 anonymous_full.zip",
+      "archive_members": [
+        "inherited/full/inherited/ICLR finished draft v3 - ANONYMOUS.zip"
+      ],
+      "nested_archive_sha256": "79b17675c80ce8976a5b75335b78d911cb86d620d4211d22d48829e7d352c46b",
+      "nested_archive_bytes": 1173112872,
+      "members": [
+        {
+          "member": "ANONYMOUS/inherited_release/studies/mechanism_confirmation/data/discovery.json",
+          "sha256": "28deb1bd226020edca62d2a47d7a13c90578a7bd0b7433a6a094e23461ccd026",
+          "bytes": 19853
+        },
+        {
+          "member": "ANONYMOUS/inherited_release/studies/mechanism_confirmation/assets/design.json",
+          "sha256": "b8a0ba7c2b2b861fd2ec7d9aa8b7c4501d5483a5a9585108dba8e397c6251ea6",
+          "bytes": 25682
+        },
+        {
+          "member": "ANONYMOUS/inherited_release/studies/mechanism_confirmation/experiments/mediation.py",
+          "sha256": "e12da45ccb7922fe5d03845fbcbfc5ff23cd43de2723a7660ce3bc9cca2bc93a",
+          "bytes": 30179
+        }
+      ],
+      "row_member_prefix": "ANONYMOUS/inherited_release/studies/mechanism_confirmation/results/stages/discovery_{01,02,03}/rows/",
+      "row_members": 9600,
+      "row_hashes": "Each compact row.source_sha256 binds its original complete JSON row; uid/story_key/component/view identify that row."
+    },
+    {
+      "archive": "ICLR finished draft v5/ICLR finished draft v5 anonymous_full.zip",
+      "archive_members": [
+        "inherited/full/inherited/ICLR finished draft v3 - ANONYMOUS.zip"
+      ],
+      "nested_archive_sha256": "79b17675c80ce8976a5b75335b78d911cb86d620d4211d22d48829e7d352c46b",
+      "members": [
+        {
+          "member": "ANONYMOUS/inherited_release/studies/utility_development/data/development.json",
+          "sha256": "d90550f0691196ff80c67178116e0ce5225af9993a322f15c93d03aa02bb2df7",
+          "bytes": 19981
+        },
+        {
+          "member": "ANONYMOUS/inherited_release/studies/utility_development/results/development.json",
+          "sha256": "e04c4b9c4d96c5ad36439284c7aa41246221f6558f8828c1a89bad0eaa621980",
+          "bytes": 5559974
+        },
+        {
+          "member": "ANONYMOUS/inherited_release/studies/utility_development/utility_task.py",
+          "sha256": "ed073bb21d1f5c56dc036ecfe8b706678e9e6c4ab127ac9f0845a93e41a1d99c",
+          "bytes": 7636
+        }
+      ],
+      "projection": "All 60 cores, 8 views and 4 controls, retaining candidate/global labels, candidate mass and symbolic expected labels."
+    }
+  ],
+  "files": {
+    "main.json.gz": {
+      "sha256": "2241be8a7eb9a8241de492736dd4fcee12e088e30b28cdfe8245e971522ae154",
+      "bytes": 983253,
+      "uncompressed_sha256": "89612e4e6a31aa4bca3121ab26e916c75ae2ed1f1bd6031309dc136af097941e",
+      "uncompressed_bytes": 4383510
+    },
+    "supporting.json.gz": {
+      "sha256": "12d17f23457accd099c26785af66dafe2a3d126e4903c97e7a9cd156496597f7",
+      "bytes": 284910,
+      "uncompressed_sha256": "1377b11bdab4b7be7b86b5e0b565fd6c688a7e079bbab6f3366e551b2eeb7cd7",
+      "uncompressed_bytes": 4818394
+    },
+    "mediation.json.gz": {
+      "sha256": "7b58c067560d10e96559758e478f67791904e4f658e172393ed9916f2eb9f451",
+      "bytes": 3449738,
+      "uncompressed_sha256": "aa48be0f773fffe01f04743c69b4f4ad89dd15a303c86ebf40420f1f77c60206",
+      "uncompressed_bytes": 15490220
+    }
+  }
+}

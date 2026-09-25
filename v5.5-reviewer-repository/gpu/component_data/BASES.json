@@ -1,0 +1,618 @@
+{
+  "bases": [
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "pca",
+      "path": "component_data/bases/mistral_original_1000_pca_101.npz",
+      "pca_identity": "exact_saved_effective_initializer",
+      "seed": 101,
+      "sha256": "de63064e0cf61b6591f4342942af41f391bc41749c85c2d4067a51611d3fd692",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/mistral/pca_ts101.npz",
+      "tensor_sha256": "e08b04852e21664f49d519350b4b95dfd2d54d5aac684b74115296413e93848e"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m3",
+      "path": "component_data/bases/mistral_original_1000_m3_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "6444f90e195a30799b4009f31ccf231e38199e8d45d93986e93cf61ae1944d3b",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/mistral/m3_ts101.npz",
+      "tensor_sha256": "84f9c3a126ca210a2ed103ed522eee96f1f6fb3555525ede8b270df9b5c0b3a8"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "f_star",
+      "path": "component_data/bases/mistral_original_1000_f_star_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "b9eb0a4be36e6ac087def95ee5418248a5f5a4a1cfde51c88b06c5d97722ec67",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "v55-main-experiments-bundle/candidate_01/v5.5_main_experiments/experiments/mistral_matched/results/mistral/training/f_star_ts101/basis.npz",
+      "tensor_sha256": "dbbfae422f9b62f5ae3589e51105677c03405344a346470ec2643747769f901d"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "pca",
+      "path": "component_data/bases/mistral_mapping_300_pca_101.npz",
+      "pca_identity": "exact_saved_effective_initializer",
+      "seed": 101,
+      "sha256": "de63064e0cf61b6591f4342942af41f391bc41749c85c2d4067a51611d3fd692",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/pca_ts101.npz",
+      "tensor_sha256": "e08b04852e21664f49d519350b4b95dfd2d54d5aac684b74115296413e93848e"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m1",
+      "path": "component_data/bases/mistral_mapping_300_m1_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "edbc945855c39ac049706b9ba21b9fefa0444273c6b97f381107403ed0e20ff9",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/m1_ts101.npz",
+      "tensor_sha256": "e99513171248f5570fa089d5b0559a70c127b3a3cd02fce088197fef737414f0"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m3",
+      "path": "component_data/bases/mistral_mapping_300_m3_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "7a7336b6a7aa7f39102f258ffb1d7157eca3de203557e0002dd9faa421e2edb4",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/m3_ts101.npz",
+      "tensor_sha256": "44f9f872377c7fb9431f2ba0f8d51e6cdf440e7cc05081f2bc36d4d139dfa718"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "pca",
+      "path": "component_data/bases/mistral_original_1000_pca_102.npz",
+      "pca_identity": "exact_saved_effective_initializer",
+      "seed": 102,
+      "sha256": "43079cf1e10d6a8d81a10cdc3bd758562752a028f216e0c5ac98fe542fee28d8",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/mistral/pca_ts102.npz",
+      "tensor_sha256": "9156982f5654227822e00f5f7bc111ef22424ac9fb05271a1300797402ef934d"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m3",
+      "path": "component_data/bases/mistral_original_1000_m3_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "6f100591fef7ffa10dfb937789c02ca504344913e4fb3bd4314bd1ab1329789b",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/mistral/m3_ts102.npz",
+      "tensor_sha256": "9d3dee7e058d80c431a721901d1a8ed9da1f5777a6cde883341fe99ead03c506"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "f_star",
+      "path": "component_data/bases/mistral_original_1000_f_star_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "8481bea608b25e0d5380a3d8dc85c2ff7bff0d2e2044ca827314b09c44794f7b",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "v55-main-experiments-bundle/candidate_01/v5.5_main_experiments/experiments/mistral_matched/results/mistral/training/f_star_ts102/basis.npz",
+      "tensor_sha256": "d4a7ec8a74d3da5a5fdf758043b8633c5d9aec0c94f1600baf73d9c2a19591fb"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "pca",
+      "path": "component_data/bases/mistral_mapping_300_pca_102.npz",
+      "pca_identity": "exact_saved_effective_initializer",
+      "seed": 102,
+      "sha256": "43079cf1e10d6a8d81a10cdc3bd758562752a028f216e0c5ac98fe542fee28d8",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/pca_ts102.npz",
+      "tensor_sha256": "9156982f5654227822e00f5f7bc111ef22424ac9fb05271a1300797402ef934d"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m1",
+      "path": "component_data/bases/mistral_mapping_300_m1_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "2c70d2df4b2a83962c34b3e5c7f63e589fde8bbe25c4d101d722b14c4f53f8f0",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/m1_ts102.npz",
+      "tensor_sha256": "65e33a43399647301fa5ea0b190d96d4abd384841e6ac40b1bbe7a189f62365b"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m3",
+      "path": "component_data/bases/mistral_mapping_300_m3_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "6c1e439820498bdaaeb187bf07ae2f965c6eb9d4d6ab5be75219dd2ac5f85609",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/m3_ts102.npz",
+      "tensor_sha256": "33deff97dc336e352f31a4e4458185f683042cc917a2c9f935636d8b2ea0946f"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "pca",
+      "path": "component_data/bases/mistral_original_1000_pca_103.npz",
+      "pca_identity": "exact_saved_effective_initializer",
+      "seed": 103,
+      "sha256": "16d56f309a4499879742bd663fa02202114b8f9df719fb5d24d2861be64b8242",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/mistral/pca_ts103.npz",
+      "tensor_sha256": "a9e07afda90cdb5e9062d9f4c9999f269b8face39af3e5a2f8a800f20435c212"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m3",
+      "path": "component_data/bases/mistral_original_1000_m3_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "14625533dfb68aabed9cf8fb5b69217eedafea5127f1ceeda81aac7d25554791",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/mistral/m3_ts103.npz",
+      "tensor_sha256": "ebe7c82998e1e1b1f61d3cd3364ea242470540a353a3ba96e85a2d9358a58018"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "f_star",
+      "path": "component_data/bases/mistral_original_1000_f_star_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "a22dec297e3ed77b4d10076a2b212857529cb557502873d1110ee2b52d77bd9a",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "v55-main-experiments-bundle/candidate_01/v5.5_main_experiments/experiments/mistral_matched/results/mistral/training/f_star_ts103/basis.npz",
+      "tensor_sha256": "8d6d3c31c073e1e89b87aeb0e78ab0e28b02020191ee5d791ccd0169950c5ee4"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "pca",
+      "path": "component_data/bases/mistral_mapping_300_pca_103.npz",
+      "pca_identity": "exact_saved_effective_initializer",
+      "seed": 103,
+      "sha256": "16d56f309a4499879742bd663fa02202114b8f9df719fb5d24d2861be64b8242",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/pca_ts103.npz",
+      "tensor_sha256": "a9e07afda90cdb5e9062d9f4c9999f269b8face39af3e5a2f8a800f20435c212"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m1",
+      "path": "component_data/bases/mistral_mapping_300_m1_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "342053a2cd4613e9d07094314eb8aec532967804008bc3c628834aacea958be8",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/m1_ts103.npz",
+      "tensor_sha256": "1dbb1c7d3b731882e93f506153a8e90a33c2e860869d875eb5b5d339a28b44b2"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "mistral",
+      "objective": "m3",
+      "path": "component_data/bases/mistral_mapping_300_m3_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "e401e31e9fe5398fa36802c0aa474e254746f57de643a023d45c549db998b90b",
+      "shape": [
+        16,
+        5120
+      ],
+      "source": "mistral-mapping-replication-2026-09-24/results/training_01/bases/m3_ts103.npz",
+      "tensor_sha256": "588df2716724074edffb945aeb767f805a7a7ddbc0d3032270d525fdc40c52d8"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "pca",
+      "path": "component_data/bases/qwen_original_1000_pca_101.npz",
+      "pca_identity": "matched_procedure_reconstruction_not_exact_original_initializer",
+      "seed": 101,
+      "sha256": "f8a0d3749b74460b55952d0dc03ee29421b2863ba1907c74d7cccdee59d0b709",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/qwen/pca_ts101.npz",
+      "tensor_sha256": "72defe8b4c5e09eba67106379b8af592ec08fdf4082f34335d3f2fe9b408e44d"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m3",
+      "path": "component_data/bases/qwen_original_1000_m3_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "e4c6787771d3f83a28e5082b8eb9efc24f9b57cb814de4b70e974d2435d6bb2a",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/qwen/m3_ts101.npz",
+      "tensor_sha256": "5cf32cb850288468ada6075193a9ac2a04d6b0fa76620231ff485c65d26041d3"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "f_star",
+      "path": "component_data/bases/qwen_original_1000_f_star_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "7797b8985b1c4251ef3ca8c85fa5c52509a66c2984840a9a4a39e0dc9ad1f37a",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "v55-main-experiments-bundle/candidate_01/v5.5_main_experiments/experiments/qwen_fixed_consequences/experiments/assets/f_star_ts101_bases.npz",
+      "tensor_sha256": "9cda32b9c759532ad581baa1e9f1815cc3bdc46b69f77f3ed37968d5290687c9"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "pca",
+      "path": "component_data/bases/qwen_mapping_300_pca_101.npz",
+      "pca_identity": "matched_procedure_reconstruction_not_exact_original_initializer",
+      "seed": 101,
+      "sha256": "f8a0d3749b74460b55952d0dc03ee29421b2863ba1907c74d7cccdee59d0b709",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/pca_ts101.npz",
+      "tensor_sha256": "72defe8b4c5e09eba67106379b8af592ec08fdf4082f34335d3f2fe9b408e44d"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m1",
+      "path": "component_data/bases/qwen_mapping_300_m1_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "4b16979409e3c0310343d93ef551d3dbcb544142a2dfc8ec691d35ee83ffd1de",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/m1_ts101_bases.npz",
+      "tensor_sha256": "ec0d8025334901308c0b9dcdb7602e8160dbf867e22b9562231cd0ee64907450"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m3",
+      "path": "component_data/bases/qwen_mapping_300_m3_101.npz",
+      "pca_identity": null,
+      "seed": 101,
+      "sha256": "b05c56b601dbc558bcf835ef913c9fe213c8ae1061c488c9cfddaf7f8d82ff65",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/m3_ts101_bases.npz",
+      "tensor_sha256": "08068238cdd0ad55939c8f834ca9b68164115ec234ef0ff651f6e39d02c412db"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "pca",
+      "path": "component_data/bases/qwen_original_1000_pca_102.npz",
+      "pca_identity": "matched_procedure_reconstruction_not_exact_original_initializer",
+      "seed": 102,
+      "sha256": "1fc9b61953ac764ddf1a3f74248d7e4b008dab3a450a95e0a1c7c73e092fa512",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/qwen/pca_ts102.npz",
+      "tensor_sha256": "5948ab8b8bbff56fb444fb63761179c91bceac8f96e9b6f399c144ea844aeaa6"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m3",
+      "path": "component_data/bases/qwen_original_1000_m3_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "0bc4cef92ddd87ef8d76180bd3abd95caf9884296d307ee2fb9a582d05f94987",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/qwen/m3_ts102.npz",
+      "tensor_sha256": "0a3be09bf55133d2e5896b362e4136d4628111f0a2617c6e794ca3d8de61e5c7"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "f_star",
+      "path": "component_data/bases/qwen_original_1000_f_star_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "efc1ed700bf36d9cdf12e1160717ca5ea34311b2223f4761365351594260cb6e",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "v55-main-experiments-bundle/candidate_01/v5.5_main_experiments/experiments/qwen_fixed_consequences/experiments/assets/f_star_ts102_bases.npz",
+      "tensor_sha256": "5015fc4456a2a16279b95378c660f5cf27798be32b4566cb40b48cf58253e6f9"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "pca",
+      "path": "component_data/bases/qwen_mapping_300_pca_102.npz",
+      "pca_identity": "matched_procedure_reconstruction_not_exact_original_initializer",
+      "seed": 102,
+      "sha256": "1fc9b61953ac764ddf1a3f74248d7e4b008dab3a450a95e0a1c7c73e092fa512",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/pca_ts102.npz",
+      "tensor_sha256": "5948ab8b8bbff56fb444fb63761179c91bceac8f96e9b6f399c144ea844aeaa6"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m1",
+      "path": "component_data/bases/qwen_mapping_300_m1_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "8970e5020a88875ec12c7a88c9b9d7d586dc086ba8156503ec0422addcb296e5",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/m1_ts102_bases.npz",
+      "tensor_sha256": "f53a224ebe3dbcd740edd032cf349cf1151f95579b51de98a38e797817806db0"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m3",
+      "path": "component_data/bases/qwen_mapping_300_m3_102.npz",
+      "pca_identity": null,
+      "seed": 102,
+      "sha256": "2d4f860a2f1622b14f7b79ff4d14516f1e9f990c16da9a3621d53ad2ee4d1097",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/m3_ts102_bases.npz",
+      "tensor_sha256": "e8f0cc22278ceb35db4a8344285c161772a73a193bdde45e57cda155d9960f30"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "pca",
+      "path": "component_data/bases/qwen_original_1000_pca_103.npz",
+      "pca_identity": "matched_procedure_reconstruction_not_exact_original_initializer",
+      "seed": 103,
+      "sha256": "ef942cf189695d049c8c258d21c1191f2e8bf09861fa98f5c534b53677f115ab",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/qwen/pca_ts103.npz",
+      "tensor_sha256": "9ac25c7c99f4877186b5a0c064262e6ee0573a4cb8c2bd98c2cf32e4dd7a4595"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m3",
+      "path": "component_data/bases/qwen_original_1000_m3_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "617b7562f029cd02204cc77c7ff9eb57def1b9ffd9b5f3fb8860f7b92e7bbdd0",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mechanism-generality-2026-09-21/confirmation/inputs/bases/qwen/m3_ts103.npz",
+      "tensor_sha256": "123dce8b94f663c696e0ff1a45978ed3a3152101c1fbfce7d9743b7b0330e15d"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "original_1000",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "f_star",
+      "path": "component_data/bases/qwen_original_1000_f_star_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "5a24b9d849304731f424a21c7b6e2a5ea7095a04490f2623f2054a754794ae1a",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "v55-main-experiments-bundle/candidate_01/v5.5_main_experiments/experiments/qwen_fixed_consequences/experiments/assets/f_star_ts103_bases.npz",
+      "tensor_sha256": "5f4758a7ea43eb5cfe11b4eb6418fb9940fa1c95174d2297f8358550fb38f8ff"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "pca",
+      "path": "component_data/bases/qwen_mapping_300_pca_103.npz",
+      "pca_identity": "matched_procedure_reconstruction_not_exact_original_initializer",
+      "seed": 103,
+      "sha256": "ef942cf189695d049c8c258d21c1191f2e8bf09861fa98f5c534b53677f115ab",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/pca_ts103.npz",
+      "tensor_sha256": "9ac25c7c99f4877186b5a0c064262e6ee0573a4cb8c2bd98c2cf32e4dd7a4595"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m1",
+      "path": "component_data/bases/qwen_mapping_300_m1_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "4b30def904b9e70ed64ba40e7f699bf456117944f7123daf75539bc01316fedf",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/m1_ts103_bases.npz",
+      "tensor_sha256": "d9405fd4b5b51fb585820a0469dffd0cd7e424121a4c360a7efaf452bef9e5c8"
+    },
+    {
+      "array_key": "rank_16",
+      "cohort": "mapping_300",
+      "dtype": "float32",
+      "model": "qwen",
+      "objective": "m3",
+      "path": "component_data/bases/qwen_mapping_300_m3_103.npz",
+      "pca_identity": null,
+      "seed": 103,
+      "sha256": "411a125465e6e60070b6a8c15b428c5e7114f97bd0eb71ca20644d57ddfe136b",
+      "shape": [
+        16,
+        8192
+      ],
+      "source": "mapping-robustness-2026-09-23/inputs/m3_ts103_bases.npz",
+      "tensor_sha256": "c93843c61bb239e28ea2369093f3a96a7155cff6b96892d595093e13e1881b53"
+    }
+  ],
+  "operation": "Load effective FP32 basis unchanged; do not QR saved arrays",
+  "schema_version": 1
+}

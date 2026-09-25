@@ -1,0 +1,37 @@
+{
+  "extractor_sha256": "454ee9b1d0cf315f9abe3b3e5cd7b05e394272bbafa825b36aee60c15dcb351f",
+  "rows": 229680,
+  "schema_version": 1,
+  "studies": [
+    {
+      "path": "native_mistral.json",
+      "sha256": "06c5b642115a3ebbb31d207fa598f802a748571ff350d62adb5fb496d0321b4e",
+      "size_bytes": 57262
+    },
+    {
+      "path": "native_qwen.json",
+      "sha256": "2d731d362140d2ec95f1a3d0fb90c0f534c4f07a42486a701f4e193eecb6e29e",
+      "size_bytes": 69852
+    },
+    {
+      "path": "mapping_mistral.json",
+      "sha256": "0778830ebb44034390402e4c3cfb82da9b19d642060bee1772b4af4a951a4d99",
+      "size_bytes": 78109
+    },
+    {
+      "path": "mapping_qwen.json",
+      "sha256": "498700107f067135d98f51749809a2556d2d807a9a8f9a6fc8ba25a5a96ebb4b",
+      "size_bytes": 84074
+    },
+    {
+      "path": "fixed_value_mistral.json",
+      "sha256": "cb3102fa2357458ce32179ffae88fbdbcd3ddd6c98e8426ea47f73914e40b73a",
+      "size_bytes": 28343
+    },
+    {
+      "path": "fixed_value_qwen.json",
+      "sha256": "7bf402e9c73cccf77083f13cbf877a2afb3a72713f102a9ddfe25e3130882bd8",
+      "size_bytes": 17377
+    }
+  ]
+}
